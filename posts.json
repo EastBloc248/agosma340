@@ -67,4 +67,45 @@
     }
   ]
 }
+
+  {
+  "slug": "us-israel-iran-strikes-nuclear-risk",
+  "title": "Strikes on Iran and the Environmental Nuclear Risk",
+  "date": "2026-03-02",
+  "tags": ["Iran", "Nuclear", "Risk", "Environment", "Policy"],
+  "excerpt": "A new wave of US–Israel strikes on Iran has revived a major environmental concern: what happens when conflicts move closer to nuclear infrastructure.",
+  "image": "assets/img/usa-trump.jpg",
+  "content": [
+    "Reports of a new wave of US–Israel strikes on Iran mark a sharp escalation in a conflict already spreading across the region. Beyond the immediate humanitarian and geopolitical fallout, these attacks raise a less discussed issue: the environmental and public-health risks that emerge when military operations target (or occur near) nuclear-related sites and critical energy infrastructure.",
+    "The core danger is not only a worst-case, ‘Chernobyl-style’ scenario. Even without a catastrophic release, warfare around nuclear installations increases the likelihood of accidental radiological exposure, damage to safety systems, disruption of power supply and cooling, fires involving hazardous materials, and the breakdown of monitoring and emergency response capacity. When conflict intensifies, transparency also tends to fall—creating uncertainty precisely when reliable information is most needed.",
+    "International nuclear-safety bodies have repeatedly warned that nuclear facilities should never be attacked, because strikes can create radiological risks that do not respect borders. The point is straightforward: once nuclear infrastructure is involved, the consequences can move from a national security problem to a long-term environmental and transboundary public-health problem.",
+    "So far, public reporting has not confirmed a radiological release from the current escalation. That is important—but it should not be misread as ‘no environmental risk’. Many high-impact environmental harms happen without radiation: missile and airstrike damage can ignite fuel stores, industrial chemicals, and military materials that pollute air, soil, and water. CEOBS has documented how attacks on airfields and related infrastructure can trigger large fires and mobilise persistent contaminants—especially where firefighting foams and fuel systems are involved.",
+    "A second, indirect climate pathway is also relevant: major conflicts tend to spike fossil fuel use (through aircraft operations, logistics, and intensive ground campaigns) while disrupting climate diplomacy and diverting state capacity away from mitigation and adaptation. The emissions picture becomes harder to measure at precisely the moment it grows most politically consequential—linking back to the ‘data gaps’ problem in military carbon accounting.",
+    "From an environmental-risk perspective, the most urgent policy priority is de-escalation and protection of nuclear installations under international norms. But there are also practical steps that reduce harm even when diplomacy fails: publish rapid, independent environmental incident reports; protect monitoring networks; coordinate cross-border early-warning mechanisms; and plan post-strike clean-up that treats hazardous debris, toxic smoke, and contaminated runoff as a public-health emergency—not merely a reconstruction detail.",
+    "In short, the environmental nuclear risk is not theoretical. The closer conflicts move to nuclear infrastructure, the more warfare can produce long-lived consequences: contamination scares, displaced communities, degraded farmland and water systems, and a climate cost that continues long after the headlines move on."
+  ],
+  "sources": [
+    {
+      "label": "Reuters (Mar 2026) – Reporting on US/Israel strikes and escalation",
+      "url": "https://www.reuters.com/world/us/us-lawmakers-see-no-trump-plan-iran-following-strikes-2026-03-01/"
+    },
+    {
+      "label": "AP (Mar 2026) – Emergency UN Security Council meeting on the strikes",
+      "url": "https://apnews.com/article/9140bca9241fb99be8cb3cff2c650741"
+    },
+    {
+      "label": "IAEA (2025) – Statements on nuclear safety when installations come under fire",
+      "url": "https://www.iaea.org/newscenter/statements/iaea-director-general-grossis-statement-to-unsc-on-situation-in-iran-20-june-2025"
+    },
+    {
+      "label": "OHCHR (2025) – UN experts: nuclear facilities must never be attacked (radiological risk)",
+      "url": "https://www.ohchr.org/en/press-releases/2025/06/un-experts-condemn-united-states-attack-iran-and-demand-permanent-end"
+    },
+    {
+      "label": "CEOBS (2025) – Environmental consequences and pollution pathways in Israel–Iran conflict",
+      "url": "https://ceobs.org/the-emerging-environmental-consequences-of-the-israel-iran-war/"
+    }
+  ]
+}
 ]
+
