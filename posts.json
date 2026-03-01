@@ -52,7 +52,7 @@
   "date": "2026-03-01",
   "tags": ["Emissions", "Policy", "Climate"],
   "excerpt": "Modern warfare generates vast emissions, yet military carbon accounting remains fragmented, inconsistent, and politically sensitive.",
-  "image": "assets/img/carbon.png"
+  "image": "assets/img/carbon.png",
   "content": [
     "War is rarely discussed in climate negotiations, yet modern militaries are among the most energy-intensive institutions on Earth. Jet fuel consumption, armored vehicle operations, naval deployments and global logistics chains all generate significant greenhouse gas emissions. However, these emissions are often under-reported or inconsistently accounted for in national climate targets.",
     "One of the core issues is transparency. Military data is frequently classified, aggregated, or excluded from public reporting frameworks. This creates a structural blind spot in global carbon accounting. When states report their national emissions, military activities conducted overseas or embedded within supply chains may not be fully included. As a result, official figures may underestimate the true climate impact of sustained military operations.",
@@ -68,7 +68,3 @@
   ]
 }
 ]
-
-
-
-
