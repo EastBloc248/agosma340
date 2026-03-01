@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <title>Case Studies | The Environmental Cost of War</title>
+  <link rel="icon" type="image/x-icon" href="assets/favicon.jpg" />
+  <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet" />
+  <link href="css/styles.css" rel="stylesheet" />
+
+  <style>
+    /* HERO = same as Articles */
+    .articles-hero {
+      padding-top: 10rem;
+      padding-bottom: 6rem;
+      background:
+        linear-gradient(to bottom, rgba(0,0,0,0.65), rgba(0,0,0,0.85)),
+        url("assets/img/bg-masthead.png");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+    /* Cards (same cinematic style) */
+    .cinematic-card { border-radius: 18px; transition: transform 0.4s ease, box-shadow 0.4s ease; }
+    .cinematic-card:hover { transform: translateY(-8px); box-shadow: 0 20px 40px rgba(0,0,0,0.6); }
+    .cinematic-image {
+      height: 320px;
+      background-size: cover;
+      background-position: center;
+      position: relative;
+      display: flex;
+      align-items: flex-end;
+    }
+    .cinematic-overlay { position: absolute; inset: 0; background: linear-gradient(to top, rgba(0,0,0,0.88), rgba(0,0,0,0.25)); }
+    .cinematic-content { position: relative; z-index: 2; }
+
+    /* Case Study sections */
+    .case-wrap { background: #0b0f14; }
+    .case-hero {
+      height: 420px;
+      background-size: cover;
+      background-position: center;
+      border-radius: 18px;
+      position: relative;
+      overflow: hidden;
+      border: 1px solid rgba(255,255,255,.10);
+    }
+    .case-hero::after {
+      content:"";
+      position:absolute; inset:0;
+      background: linear-gradient(to top, rgba(0,0,0,0.90), rgba(0,0,0,0.25));
+    }
+    .case-hero-content {
+      position:absolute; bottom:0; left:0; right:0;
+      padding: 1.75rem;
+      z-index: 2;
+    }
+    .case-card {
+      background:#111826;
+      border:1px solid rgba(255,255,255,.10);
+      border-radius:18px;
+      padding:1.5rem;
+    }
+    .muted { color: rgba(255,255,255,.65); }
+    .text-soft { color: rgba(255,255,255,.80); line-height: 1.75; }
+    a.article-link { color:#9ecbff; text-decoration:none; }
+    a.article-link:hover { text-decoration:underline; }
+
+    /* navbar offset when jumping to #anchors */
+    .anchor-offset { scroll-margin-top: 110px; }
+  </style>
+</head>
+
+<body id="page-top">
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+    <div class="container px-4 px-lg-5">
+      <a class="navbar-brand" href="index.html#page-top">Home</a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive">
+        Menu <i class="fas fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="articles.html">Articles</a></li>
+          <li class="nav-item"><a class="nav-link active" href="case-studies.html">Case Studies</a></li>
+          <li class="nav-item"><a class="nav-link" href="index.html#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="index.html#signup">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <header class="articles-hero">
+    <div class="container px-4 px-lg-5">
+      <h1 class="text-white text-uppercase mb-2">Case Studies</h1>
+      <p class="text-white-50 mb-0">
+        Focused case studies linking conflict dynamics to emissions, environmental damage, and long-term ecological consequences.
+      </p>
+      <div class="muted small mt-3">Tip: click a card to jump to the full case study.</div>
+    </div>
+  </header>
+
+  <!-- Cards (jump links) -->
+  <section class="bg-black py-5">
+    <div class="container px-4 px-lg-5">
+      <div class="row g-4">
+
+        <!-- UKRAINE -->
+        <div class="col-md-6 col-lg-4">
+          <a href="#ukraine" style="text-decoration:none;">
+            <div class="card cinematic-card h-100 border-0 overflow-hidden">
+              <div class="cinematic-image" style="background-image:url('assets/img/ukraine.png')">
+                <div class="cinematic-overlay"></div>
+                <div class="cinematic-content p-4">
+                  <div class="muted small mb-2">Case Study • Ukraine</div>
+                  <h5 class="text-white">Ukraine</h5>
+                  <p class="text-white-50">
+                    Operational emissions, infrastructure damage, and new waste streams such as fibre-optic drone cables.
+                  </p>
+                  <span class="article-link text-white">Open →</span>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <!-- SYRIA -->
+        <div class="col-md-6 col-lg-4">
+          <a href="#syria" style="text-decoration:none;">
+            <div class="card cinematic-card h-100 border-0 overflow-hidden">
+              <div class="cinematic-image" style="background-image:url('assets/img/syria.png')">
+                <div class="cinematic-overlay"></div>
+                <div class="cinematic-content p-4">
+                  <div class="muted small mb-2">Case Study • Syria</div>
+                  <h5 class="text-white">Syria</h5>
+                  <p class="text-white-50">
+                    Protracted conflict with long-term land degradation, pollution hotspots, and water contamination.
+                  </p>
+                  <span class="article-link text-white">Open →</span>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- FULL CASE STUDIES -->
+  <section class="case-wrap py-5">
+    <div class="container px-4 px-lg-5">
+
+      <!-- UKRAINE FULL -->
+      <div id="ukraine" class="anchor-offset mb-5">
+        <div class="case-hero" style="background-image:url('assets/img/ukraine.png')">
+          <div class="case-hero-content">
+            <div class="muted small mb-2">Case Study</div>
+            <h2 class="text-white mb-1">Ukraine</h2>
+            <p class="text-white-50 mb-0">
+              High-intensity warfare and the climate: operational fuel demand, infrastructure damage, and emerging battlefield waste.
+            </p>
+          </div>
+        </div>
+
+        <div class="row g-4 mt-3">
+          <div class="col-lg-7">
+            <div class="case-card">
+              <h5 class="text-white">Overview</h5>
+              <p class="text-soft">
+                The war in Ukraine illustrates how modern conflict generates both direct and indirect environmental impacts.
+                Beyond battlefield emissions, attacks on energy systems, industrial sites, and transport infrastructure create
+                pollution hotspots and additional emissions through reconstruction. At the same time, data gaps and military secrecy
+                make precise accounting difficult—meaning the true climate cost is likely under-estimated.
+              </p>
+
+              <h5 class="text-white mt-4">Key mechanisms</h5>
+              <ul class="text-soft">
+                <li><strong>Operational emissions:</strong> fuel-intensive logistics, armour, aircraft, and generators.</li>
+                <li><strong>Infrastructure damage:</strong> disruptions to power, industry and transport increase emissions and pollution.</li>
+                <li><strong>Reconstruction wave:</strong> steel/cement rebuilding locks in significant embodied emissions.</li>
+                <li><strong>New waste streams:</strong> fibre-optic FPV drones leave kilometres of cable, adding long-lived plastic debris.</li>
+              </ul>
+
+              <h5 class="text-white mt-4">Why it matters</h5>
+              <p class="text-soft mb-0">
+                Ukraine shows that “war emissions” are not only a short-term spike—many impacts persist through damaged ecosystems,
+                contaminated soils and water, and carbon-intensive rebuilding. Treating these impacts as measurable and reportable
+                is essential for accountability and post-conflict recovery planning.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-lg-5">
+            <div class="case-card">
+              <h5 class="text-white">Suggested sources to cite</h5>
+              <ul class="muted mb-0">
+                <li>CEOBS (conflict & environment reporting)</li>
+                <li>UNEP (environment and conflict overview)</li>
+                <li>Academic/NGO estimates of war-related emissions (methodology + limitations)</li>
+              </ul>
+              <div class="muted small mt-3">
+                (You can add your exact links in the article’s Sources section later.)
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- SYRIA FULL -->
+      <div id="syria" class="anchor-offset">
+        <div class="case-hero" style="background-image:url('assets/img/syria.png')">
+          <div class="case-hero-content">
+            <div class="muted small mb-2">Case Study</div>
+            <h2 class="text-white mb-1">Syria</h2>
+            <p class="text-white-50 mb-0">
+              Protracted conflict and slow environmental collapse: air pollution, land degradation, and long-term contamination.
+            </p>
+          </div>
+        </div>
+
+        <div class="row g-4 mt-3">
+          <div class="col-lg-7">
+            <div class="case-card">
+              <h5 class="text-white">Overview</h5>
+              <p class="text-soft">
+                Syria highlights the long-term ecological consequences of protracted conflict, where damage accumulates over years.
+                Environmental harm is produced not only by active fighting, but by institutional collapse, reduced oversight, and
+                disruptions to basic services—especially water and waste management. These dynamics create contamination that can persist
+                for decades and complicate post-conflict recovery.
+              </p>
+
+              <h5 class="text-white mt-4">Key mechanisms</h5>
+              <ul class="text-soft">
+                <li><strong>Air pollution:</strong> burning sites, damaged infrastructure and fires degrade air quality.</li>
+                <li><strong>Water contamination:</strong> damaged systems and debris increase exposure to pollutants.</li>
+                <li><strong>Land degradation:</strong> military activity, displacement and resource pressure stress ecosystems.</li>
+                <li><strong>Governance collapse:</strong> environmental protection becomes secondary, delaying clean-up and restoration.</li>
+              </ul>
+
+              <h5 class="text-white mt-4">Why it matters</h5>
+              <p class="text-soft mb-0">
+                Syria shows that environmental harm is often “slow violence”: it persists long after headlines move on.
+                Recovery therefore requires more than rebuilding—ecological restoration and pollution monitoring become central
+                to long-term stability, public health, and climate resilience.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-lg-5">
+            <div class="case-card">
+              <h5 class="text-white">Suggested sources to cite</h5>
+              <ul class="muted mb-0">
+                <li>UNEP (conflict & environment)</li>
+                <li>UN reports on Syria environmental damage</li>
+                <li>NGO/academic work on water systems, pollution hotspots, and land degradation</li>
+              </ul>
+              <div class="muted small mt-3">
+                Add direct hyperlinks once you pick your preferred sources.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer bg-black small text-center text-white-50">
+    <div class="container px-4 px-lg-5">Copyright © Andrei Gosman 2026</div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/scripts.js"></script>
+</body>
+</html>
