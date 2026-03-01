@@ -38,5 +38,25 @@
         "url": "https://ceobs.org/"
       }
     ]
-  }
+  },
+{
+  "slug": "war-and-carbon-accounting",
+  "title": "War and Carbon Accounting: The Emissions We Do Not Measure",
+  "date": "2026-03-01",
+  "tags": ["Emissions", "Policy", "Climate"],
+  "excerpt": "Modern warfare generates vast emissions, yet military carbon accounting remains fragmented, inconsistent, and politically sensitive.",
+  "content": [
+    "War is rarely discussed in climate negotiations, yet modern militaries are among the most energy-intensive institutions on Earth. Jet fuel consumption, armored vehicle operations, naval deployments and global logistics chains all generate significant greenhouse gas emissions. However, these emissions are often under-reported or inconsistently accounted for in national climate targets.",
+    "One of the core issues is transparency. Military data is frequently classified, aggregated, or excluded from public reporting frameworks. This creates a structural blind spot in global carbon accounting. When states report their national emissions, military activities conducted overseas or embedded within supply chains may not be fully included. As a result, official figures may underestimate the true climate impact of sustained military operations.",
+    "Beyond direct fuel use, war produces secondary emissions that are rarely quantified. The destruction of infrastructure — power plants, factories, housing and transport systems — leads to massive reconstruction efforts. Cement, steel, and industrial rebuilding generate an additional wave of emissions that can last years or even decades after active conflict ends. These indirect impacts blur the line between immediate wartime emissions and long-term climate consequences.",
+    "There is also the question of opportunity cost. Military expenditure diverts financial and technological resources that could otherwise be invested in renewable energy, climate adaptation, or resilience infrastructure. In this sense, the environmental cost of war extends beyond measurable emissions; it reshapes policy priorities and delays climate mitigation efforts.",
+    "Improving accountability does not require compromising national security. Aggregate reporting frameworks, standardized fuel-use disclosures, and independent environmental monitoring could enhance transparency without revealing sensitive operational details. If climate agreements are to reflect reality, they must acknowledge that conflict and militarization are not climate-neutral activities."
+  ],
+  "sources": [
+    {
+      "label": "SGR & CEOBS (2022) Estimating the Military’s Global GHG Emissions",
+      "url": "https://ceobs.org/wp-content/uploads/2022/11/SGRCEOBS-Estimating_Global_MIlitary_GHG_Emissions_Nov22_rev.pdf"
+    }
+  ]
+}
 ]
