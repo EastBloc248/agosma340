@@ -138,15 +138,18 @@
         col.className = 'col-md-6 col-lg-4';
 
         col.innerHTML = `
-          <div class="card card-dark h-100">
-            <div class="card-body">
-              <div class="muted small mb-2">${fmtDate(p.date)} • ${(p.tags||[]).slice(0,2).join(', ')}</div>
-              <h5 class="card-title text-white">${p.title}</h5>
-              <p class="card-text muted">${p.excerpt || ''}</p>
-              <a class="article-link" href="posts/post.html?slug=${encodeURIComponent(p.slug)}">Read →</a>
-            </div>
-          </div>
-        `;
+         <div class="card cinematic-card h-100 border-0 overflow-hidden">
+    <div class="cinematic-image" style="background-image:url('${p.image || "assets/img/bg-masthead.jpg"}')">
+      <div class="cinematic-overlay"></div>
+      <div class="cinematic-content p-4">
+        <div class="muted small mb-2">${fmtDate(p.date)} • ${(p.tags||[]).slice(0,2).join(', ')}</div>
+        <h5 class="text-white">${p.title}</h5>
+        <p class="text-white-50">${p.excerpt || ''}</p>
+        <a class="article-link text-white" href="posts/post.html?slug=${encodeURIComponent(p.slug)}">Read →</a>
+      </div>
+    </div>
+  </div>
+`;
         elGrid.appendChild(col);
       });
     }
@@ -164,4 +167,5 @@
 </body>
 
 </html>
+
 
