@@ -11201,3 +11201,12 @@ body {
 .footer {
   padding: 5rem 0;
 }
+.btn-primary {
+  background-color: #2f3542;
+  border-color: #2f3542;
+}
+
+.btn-primary:hover {
+  background-color: #57606f;
+  border-color: #57606f;
+}
