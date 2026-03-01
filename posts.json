@@ -30,6 +30,7 @@
     "date": "2026-03-01",
     "tags": ["Ukraine", "Pollution", "Technology"],
     "excerpt": "Fibre-optic FPV drones can leave kilometres of cable across fields — creating a new stream of conflict-related plastic waste.",
+    "image": "assets/img/drone.jfif",
  "content": [
   "The rapid evolution of drone warfare has introduced a new and largely unexamined form of environmental pollution. Fibre-optic guided FPV drones, increasingly used in modern conflicts, replace traditional radio control with a physical cable connection. This reduces vulnerability to electronic jamming but creates a new environmental footprint on the battlefield.",
   "Each deployment can involve kilometres of thin polymer-coated fibre-optic cable unspooled across fields, forests and urban areas. Once the drone completes its mission, the cable is typically abandoned. Over time, these strands accumulate, forming what journalists and environmental observers have described as ‘plastic spiderwebs’ across landscapes affected by conflict.",
@@ -66,4 +67,5 @@
   ]
 }
 ]
+
 
