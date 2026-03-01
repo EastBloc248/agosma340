@@ -1,0 +1,42 @@
+[
+  {
+    "slug": "hidden-emissions",
+    "title": "Hidden Emissions & Data Gaps",
+    "date": "2026-03-01",
+    "tags": ["Emissions", "Policy", "Data"],
+    "excerpt": "Why military emissions are often missing from climate targets — and what that means for accountability and global climate reporting.",
+    "content": [
+      "Military greenhouse gas emissions are frequently under-reported or excluded from national inventories. This is not just a technical oversight: classification, security concerns and political incentives can reduce transparency.",
+      "During war, measurement becomes even harder. Fuel use, overseas operations, supply chains, and the emissions linked to destruction and reconstruction are rarely captured in a consistent way across countries.",
+      "A practical improvement would be standardised reporting frameworks that include aggregate fuel-use data, common accounting rules for overseas deployments, and explicit treatment of reconstruction emissions."
+    ],
+    "sources": [
+      {
+        "label": "SGR & CEOBS (2022) Estimating the Military’s Global GHG Emissions",
+        "url": "https://ceobs.org/wp-content/uploads/2022/11/SGRCEOBS-Estimating_Global_MIlitary_GHG_Emissions_Nov22_rev.pdf"
+      },
+      {
+        "label": "UNEP – Environment and Conflict",
+        "url": "https://www.unep.org/explore-topics/disasters-conflicts"
+      }
+    ]
+  },
+  {
+    "slug": "fibre-optic-drone-cables",
+    "title": "Fibre-Optic Drone Cables: A New War Waste",
+    "date": "2026-03-01",
+    "tags": ["Ukraine", "Pollution", "Technology"],
+    "excerpt": "Fibre-optic FPV drones can leave kilometres of cable across fields — creating a new stream of conflict-related plastic waste.",
+    "content": [
+      "Fibre-optic guided FPV drones reduce jamming risk by using a cable connection rather than a purely radio-based link. In practice, this can leave long lengths of cable spread across terrain after missions.",
+      "These cables are typically polymer-coated and can persist for long periods, fragmenting over time and adding to microplastic pollution. They also create practical hazards for wildlife, farming, and post-conflict clean-up.",
+      "This emerging waste stream highlights how new battlefield technologies can generate environmental impacts that are not captured by conventional emissions accounting."
+    ],
+    "sources": [
+      {
+        "label": "CEOBS – Conflict and Environment Observatory (background on conflict pollution)",
+        "url": "https://ceobs.org/"
+      }
+    ]
+  }
+]
