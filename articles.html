@@ -11,6 +11,35 @@
   <link href="css/styles.css" rel="stylesheet" />
 
   <style>
+    .cinematic-card {
+  border-radius: 18px;
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.cinematic-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 20px 40px rgba(0,0,0,0.6);
+}
+
+.cinematic-image {
+  height: 320px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+}
+
+.cinematic-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to top, rgba(0,0,0,0.85), rgba(0,0,0,0.2));
+}
+
+.cinematic-content {
+  position: relative;
+  z-index: 2;
+}
     .articles-hero { padding-top: 10rem; padding-bottom: 6rem; background: #0b0f14; }
     .chip { display:inline-block; padding:.25rem .6rem; border-radius:999px; border:1px solid rgba(255,255,255,.18); color:#e6e6e6; font-size:.8rem; margin:.15rem .25rem .15rem 0; cursor:pointer; }
     .chip.active { background:#c1121f; border-color:#c1121f; }
@@ -167,5 +196,6 @@
 </body>
 
 </html>
+
 
 
