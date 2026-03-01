@@ -5,11 +5,14 @@
     "date": "2026-03-01",
     "tags": ["Emissions", "Policy", "Data"],
     "excerpt": "Why military emissions are often missing from climate targets — and what that means for accountability and global climate reporting.",
-    "content": [
-      "Military greenhouse gas emissions are frequently under-reported or excluded from national inventories. This is not just a technical oversight: classification, security concerns and political incentives can reduce transparency.",
-      "During war, measurement becomes even harder. Fuel use, overseas operations, supply chains, and the emissions linked to destruction and reconstruction are rarely captured in a consistent way across countries.",
-      "A practical improvement would be standardised reporting frameworks that include aggregate fuel-use data, common accounting rules for overseas deployments, and explicit treatment of reconstruction emissions."
-    ],
+  "content": [
+  "Military greenhouse gas emissions remain one of the least transparent components of global carbon accounting. While national climate targets increasingly demand measurable reductions across energy, transport and industry, the military sector is frequently treated as an exception. This creates a structural blind spot in climate governance.",
+  "Modern armed forces operate vast logistical systems: fighter jets, naval fleets, armored vehicles, satellite infrastructure and global supply chains. These systems depend heavily on fossil fuels. Jet fuel alone represents a major source of emissions, and large-scale military exercises can rival the annual emissions of small cities. Yet reporting practices vary widely between countries, and some military activities are excluded from national inventories altogether.",
+  "One reason for this gap is classification. Data on fuel consumption, overseas operations, and supply routes may be considered strategically sensitive. Governments often argue that full disclosure could compromise national security. However, the absence of aggregate reporting makes it difficult to assess the real climate cost of military preparedness and conflict.",
+  "The problem intensifies during wartime. Destruction of infrastructure releases stored carbon and toxic pollutants. Power plants, industrial sites and transport systems damaged by conflict create cascading environmental consequences. Reconstruction then generates a second wave of emissions through cement production, steel manufacturing and heavy machinery use. These indirect emissions are rarely attributed to conflict in formal reporting frameworks.",
+  "Beyond measurement challenges lies a deeper policy issue: opportunity cost. Global military spending far exceeds climate adaptation funding. Financial and technological resources allocated to weapons systems, logistics and defense research could alternatively support renewable energy, climate resilience and environmental restoration. In this sense, the environmental cost of war extends beyond direct emissions — it reshapes political priorities.",
+  "If climate agreements are to reflect reality, military emissions cannot remain outside the conversation. Transparent aggregate reporting, standardized accounting frameworks and independent environmental monitoring would not require disclosure of tactical details. They would, however, acknowledge that war and militarization are not climate-neutral activities."
+],
     "sources": [
       {
         "label": "SGR & CEOBS (2022) Estimating the Military’s Global GHG Emissions",
@@ -27,11 +30,14 @@
     "date": "2026-03-01",
     "tags": ["Ukraine", "Pollution", "Technology"],
     "excerpt": "Fibre-optic FPV drones can leave kilometres of cable across fields — creating a new stream of conflict-related plastic waste.",
-    "content": [
-      "Fibre-optic guided FPV drones reduce jamming risk by using a cable connection rather than a purely radio-based link. In practice, this can leave long lengths of cable spread across terrain after missions.",
-      "These cables are typically polymer-coated and can persist for long periods, fragmenting over time and adding to microplastic pollution. They also create practical hazards for wildlife, farming, and post-conflict clean-up.",
-      "This emerging waste stream highlights how new battlefield technologies can generate environmental impacts that are not captured by conventional emissions accounting."
-    ],
+ "content": [
+  "The rapid evolution of drone warfare has introduced a new and largely unexamined form of environmental pollution. Fibre-optic guided FPV drones, increasingly used in modern conflicts, replace traditional radio control with a physical cable connection. This reduces vulnerability to electronic jamming but creates a new environmental footprint on the battlefield.",
+  "Each deployment can involve kilometres of thin polymer-coated fibre-optic cable unspooled across fields, forests and urban areas. Once the drone completes its mission, the cable is typically abandoned. Over time, these strands accumulate, forming what journalists and environmental observers have described as ‘plastic spiderwebs’ across landscapes affected by conflict.",
+  "Unlike conventional battlefield debris such as metal fragments, fibre-optic cables are composed of synthetic polymers. These materials can persist for extremely long periods, fragmenting into microplastics. In agricultural areas, they can interfere with soil recovery and pose hazards to wildlife. In forested zones, they complicate environmental restoration efforts and increase clean-up costs.",
+  "This phenomenon illustrates how technological innovation in warfare often produces unintended ecological consequences. The focus on tactical advantage tends to overshadow downstream environmental effects. As new systems are deployed at scale, waste streams emerge that were never anticipated in traditional military environmental assessments.",
+  "The long-term implications are significant. Post-conflict recovery planning rarely accounts for microplastic contamination or widespread synthetic debris embedded across rural landscapes. Environmental monitoring frameworks must therefore adapt to include these emerging forms of conflict-related waste.",
+  "Recognizing fibre-optic drone cables as a distinct environmental issue does not imply abandoning technological development. Rather, it highlights the need for environmental foresight in military innovation. If future conflicts are increasingly shaped by autonomous systems and remote technologies, their ecological footprint must become part of the policy discussion."
+],
     "sources": [
       {
         "label": "CEOBS – Conflict and Environment Observatory (background on conflict pollution)",
@@ -60,3 +66,4 @@
   ]
 }
 ]
+
